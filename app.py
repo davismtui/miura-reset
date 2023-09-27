@@ -19,7 +19,7 @@ def signin():
     logger.log(email, time)
 
 
-    return "success" #potentially add another webpage here
+    return render_template('phish.html') #potentially add another webpage here
 
 
 
